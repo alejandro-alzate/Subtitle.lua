@@ -1,7 +1,14 @@
 # *Subtitle.lua*
 A spiritual successor of [srt.lua][srt]
 
-## To do:
+## Contents
+- [To do](#to_do)
+- [Features](#features)
+- [Flaws](#flaws)
+- [Getting started](#setting_started)
+- [Documentation](#documentation)
+
+## To do
 - [ ] Formats to be supported
 	- [ ] XML Timed Content
 	- [ ] WebVTT
