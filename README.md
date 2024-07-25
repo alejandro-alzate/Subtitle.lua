@@ -4,6 +4,7 @@ A spiritual successor of [srt.lua][srt]
 ## To do:
 - [ ] Formats to be supported
 	- [ ] XML Timed Content
+	- [ ] WebVTT
 	- [ ] VTT
 	- [ ] SBV
 - [ ] Luarocks package
@@ -19,6 +20,7 @@ A spiritual successor of [srt.lua][srt]
 ## Flaws
 - ~~Inefficient~~ → (Not that much anymore. content is cached)
 - Requires [Object.lua][obj] in order to function.
+- Docs mention format yet to be included
 
 ## Getting started
 1. 📡 Get a copy of srt.lua from the [Official Repository][sub]
