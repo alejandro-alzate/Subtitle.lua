@@ -149,7 +149,11 @@ function Subtitle:detectFormat()
 	--and lyric is the lyric to be played at that time
 	if self.baseString:find("%[%d%d:%d%d%.%d%d%]") then
 		self.format = "LRC"
+		return
 	end
+
+	--Let's just default to srt since this is the only type that srt.lua could parse.
+	self.format = "Srt"
 end
 
 function Subtitle:processFragmentTable(tbl)

@@ -8,6 +8,7 @@ A spiritual successor of [srt.lua][srt]
 	- [ ] SBV
 - [ ] Luarocks package
 - [ ] Good docs
+- [ ] Format conversion
 
 ## Features
 - Formats supported
